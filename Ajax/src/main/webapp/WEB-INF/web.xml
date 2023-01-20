@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>UserSearchServlet</display-name>
+    <servlet-name>UserSearchServlet</servlet-name>
+    <servlet-class>user.UserSearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserSearchServlet</servlet-name>
+    <url-pattern>/UserSearchServlet</url-pattern>
+  </servlet-mapping>
+  <display-name>Ajax</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>UserSearch_Servlet</display-name>
+    <servlet-name>UserSearch_Servlet</servlet-name>
+    <servlet-class>user.UserSearch_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserSearch_Servlet</servlet-name>
+    <url-pattern>/UserSearch_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserSearchServlet01</display-name>
+    <servlet-name>UserSearchServlet01</servlet-name>
+    <servlet-class>user.UserSearchServlet01</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserSearchServlet01</servlet-name>
+    <url-pattern>/UserSearchServlet01</url-pattern>
+  </servlet-mapping>
+</web-app>
